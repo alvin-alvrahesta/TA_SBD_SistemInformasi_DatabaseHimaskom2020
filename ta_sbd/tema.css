@@ -1,0 +1,322 @@
+.main {
+  margin-top: 100px; /* Add a top margin to avoid content overlay */
+  margin-bottom: 60px;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1{
+/*    color: #ff7015;*/
+  color: #dfdfdf;
+    margin: 16px;
+  }
+h2{
+    margin-top: -5px;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #aaaaaa;
+  }
+h3{
+    margin: 6px;
+  }
+
+#left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+#left {width: 25%; background: blue;}
+#middle {width: 50%; background: green;}
+#right {width: 25%; background: yellow;}
+
+.div1 {
+    margin-bottom: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #383838;
+    margin-left: 20px;
+    margin-right: 20px;
+  box-shadow: 0 4px 10px 0 rgba(0, 20, 50, 0.4), 0 6px 15px 0 rgba(0, 20, 50, 0.4);
+}
+
+.div2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: white;
+  box-shadow: 0 4px 10px 0 rgba(0, 20, 50, 0.4), 0 6px 15px 0 rgba(0, 20, 50, 0.4);
+}
+.div3 {
+    padding: 2px;
+    padding-bottom: 1px;
+    margin-top: :10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-color: #0c347c;
+   }
+
+body {
+    background-image: url("index32.jpg");
+    background-size: 1368px 768px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-color: #eeeeee;
+    font-family: Arial;
+  }
+/*============ TOP NAVIGATION BAR ===============*/
+.topnav {
+  width: 100%;
+  margin-top:-6px;
+  margin-left: -8px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  background-color: #383838;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.3), 0 6px 15px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  border-radius: 5px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 5px;
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #556677;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #3993cf;
+  color: white;
+}
+
+/*=============== TABLE ===========*/
+table{
+  border-collapse: collapse;
+  line-height: 170%;
+  text-align: center;
+  border-width: 3px;
+  border-color: #333333;
+  border-style: initial;
+}
+
+.hoverTable th {
+  background-color: #444444;
+  color: white;
+  text-align: center;
+  padding: 7px;
+}
+
+.hoverTable td{ 
+    background-color: white;
+    color: #202020;
+    padding: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/* Define the default color for all the table rows */
+.hoverTable tr:nth-child(even) td{
+    background: #eee;
+}
+/* Define the hover highlight color for the table row */
+.hoverTable tr:hover td{
+      background-color: #ccddee;
+}
+
+#t01 tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/*=============== Form EDIT TAMBAH LOGIN ===========*/
+.kotak{
+    font-family: arial;
+    width: 400px;
+    background: #fefefe;
+    margin: 30px auto;
+    padding: 28px 28px;
+    border-radius: 10px;
+    border-width: 0px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.form_login{
+    font-family: arial;
+    box-sizing : border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 14pt;
+    margin-bottom: 20px;
+    border-width: 0px;
+    margin-top: 4px;
+    color: #222222;
+    background-color: #eeeeef;
+  }
+  
+  .form_cari{
+    border-radius: 3px;
+    font-family: arial;
+    width: 200px;
+    padding: 7px;
+    font-size: 14pt;
+    border-width: 0px;
+    margin:5px;
+    color: #222222;
+    background-color: #ffffff;
+    border-color: #aaaaaa;
+    border-style: none;
+  }
+
+.submitBtn{
+    opacity: 1;
+    font-family: arial;
+    background-color:#0c347c;
+    width: 100%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 0px;
+    font-size: 16px;
+  }
+
+.btn_cari{
+    opacity: 1;
+        font-family: arial;
+  background-color: #909020;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0px;
+  font-size: 14px;
+  margin-top: 0px;
+  }
+
+  
+/*=============== Link ==================*/
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*=============== Button ==================*/
+
+button{
+    opacity: 1;
+        font-family: arial;
+  background-color:#3993cf;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0px;
+  font-size: 14px;
+  margin-top:3px;
+  margin-bottom:3px;
+}
+button1 {
+    opacity: 1;
+        font-family: arial;
+  background-color:#c41616;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0px;
+  font-size: 14px;
+  margin-top:3px;
+  margin-bottom:3px;
+}
+button2 {
+    opacity: 1;
+        font-family: arial;
+  background-color:#db9615;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0px;
+  font-size: 14px;
+    margin-top: 3px;
+  margin-bottom:3px;
+}
+
+button3{
+  opacity: 1;
+  background-color:#6e6e6e;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0px;
+  font-size: 14px;
+    margin-top: 3px;
+  margin-bottom:3px;
+}
+button4{
+    opacity: 0.5;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+  background-color:#40aa40;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding:20px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0px;
+  font-size: 14px;
+  text-align: center;
+    margin-top: 3px;
+  margin-bottom:3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 20, 50, 0.3), 0 6px 15px 0 rgba(0, 20, 50, 0.3);
+}
+::placeholder {
+  color: #777777;
+  font-size: 14px;
+}
+
+input[type=submit]:hover,button:hover,button1:hover,button2:hover,button3:hover{
+    opacity:0.7;
+}
+button4:hover{
+    opacity:1;
+}
